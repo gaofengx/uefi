@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<manifest>
+	<remote
+		name="gitlab"
+		fetch="https://gitlab.icelab.lenovo.com/" />
+	<default
+		remote="gitlab"
+		revision="master"
+		sync-j="1" />
+	<project
+		name="UEFI/Reference/ReferenceBuildWhitley"
+		group="UEFI"
+		path="ReferenceBuild"
+		remote="gitlab"
+		revision="master" />
+</manifest>
