@@ -3,15 +3,15 @@
 <manifest>
 	<remote
 		name="gitlab"
-		fetch="https://gitlab.icelab.lenovo.com/" />
+		fetch="https://github.com" />
 	<default
-		remote="gitlab"
+		remote="github"
 		revision="master"
 		sync-j="1" />
 	<project
-		name="UEFI/Reference/ReferenceBuildWhitley"
-		group="UEFI"
-		path="ReferenceBuild"
-		remote="gitlab"
+		name="gaofengx/linux"
+		group="linux"
+		path="Referencelinux"
+		remote="github"
 		revision="master" />
 </manifest>
